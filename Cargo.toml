@@ -1,0 +1,150 @@
+[package]
+name = "popup"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+# Lab 1
+# -----
+
+[[bin]]
+name = "lab1-interval"
+path = "kattis/lab1/interval_cover.rs"
+
+[[bin]]
+name = "lab1-knapsack"
+path = "kattis/lab1/knapsack.rs"
+
+[[bin]]
+name = "lab1-lis"
+path = "kattis/lab1/longest_increasing_subsequence.rs"
+
+[[bin]]
+name = "lab1-uf"
+path = "kattis/lab1/union_find.rs"
+
+[[bin]]
+name = "lab1-fenwick"
+path = "kattis/lab1/fenwick_tree.rs"
+
+[[bin]]
+name = "lab1-rational"
+path = "kattis/lab1/rational_arithmetic.rs"
+
+[[bin]]
+name = "lab1-polymul"
+path = "kattis/lab1/polynomial_multiplication.rs"
+
+[[bin]]
+name = "lab1-equations"
+path = "kattis/lab1/linear_equation_solver.rs"
+
+
+# Lab 2
+# -----
+
+[[bin]]
+name = "lab2-sssp-nonneg"
+path = "kattis/lab2/single_source_shortest_path_non_negative_weights.rs"
+
+[[bin]]
+name = "lab2-sssp-timetable"
+path = "kattis/lab2/single_source_shortest_path_time_table.rs"
+
+[[bin]]
+name = "lab2-sssp-negative"
+path = "kattis/lab2/single_source_shortest_path_negative_weights.rs"
+
+[[bin]]
+name = "lab2-apsp"
+path = "kattis/lab2/all_pairs_shortest_path.rs"
+
+[[bin]]
+name = "lab2-mst"
+path = "kattis/lab2/minimum_spanning_tree.rs"
+
+[[bin]]
+name = "lab2-maxflow"
+path = "kattis/lab2/maximum_flow.rs"
+
+[[bin]]
+name = "lab2-mincut"
+path = "kattis/lab2/minimum_cut.rs"
+
+[[bin]]
+name = "lab2-mcmf"
+path = "kattis/lab2/minimum_cost_maximum_flow.rs"
+
+[[bin]]
+name = "lab2-eulerian"
+path = "kattis/lab2/eulerian_path.rs"
+
+
+# Lab 3
+# -----
+
+[[bin]]
+name = "lab3-string-single"
+path = "kattis/lab3/string_matching.rs"
+
+[[bin]]
+name = "lab3-string-multi"
+path = "kattis/lab3/string_multimatching.rs"
+
+[[bin]]
+name = "lab3-suffix"
+path = "kattis/lab3/suffix_sorting.rs"
+
+[[bin]]
+name = "lab3-modular"
+path = "kattis/lab3/modular_arithmetic.rs"
+
+[[bin]]
+name = "lab3-crt"
+path = "kattis/lab3/chinese_remainder_theorem.rs"
+
+[[bin]]
+name = "lab3-primes"
+path = "kattis/lab3/prime_sieve.rs"
+
+[[bin]]
+name = "lab3-recurrence"
+path = "kattis/lab3/linear_recurrence.rs"
+
+
+# Lab 4
+# -----
+
+[[bin]]
+name = "lab4-hashing"
+path = "kattis/lab4/string_hashing.rs"
+
+[[bin]]
+name = "lab4-area"
+path = "kattis/lab4/polygon_area.rs"
+
+[[bin]]
+name = "lab4-containment"
+path = "kattis/lab4/point_in_polygon.rs"
+
+[[bin]]
+name = "lab4-intersection"
+path = "kattis/lab4/line_segment_intersection.rs"
+
+[[bin]]
+name = "lab4-distance"
+path = "kattis/lab4/line_segment_distance.rs"
+
+[[bin]]
+name = "lab4-closest"
+path = "kattis/lab4/closest_pair.rs"
+
+# [[bin]]
+# name = "lab4-hull"
+# path = "kattis/lab4/convex_hull.rs"
+
+# [[bin]]
+# name = "lab4-collinear"
+# path = "kattis/lab4/maximum_number_of_collinear_points.rs"
